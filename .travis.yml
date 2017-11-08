@@ -1,8 +1,12 @@
-sudo: required
+os:
+- linux
 dist: trusty
+
+install: make get-deps
+
 compiler:
 - clang
 - gcc
-os:
-- linux
+
+sudo: required
 script: make
