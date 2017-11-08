@@ -1,4 +1,3 @@
-language: cpp
 sudo: required
 dist: trusty
 compiler:
@@ -6,4 +5,4 @@ compiler:
 - gcc
 os:
 - linux
-ruby: 2.2.0
+script: make
